@@ -1,0 +1,44 @@
+ <svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+   <rect width="300" height="120" fill="#0d1117"></rect>
+   <g>
+     <line x1="40" y1="30" x2="40" y2="70" stroke="white" stroke-width="3"></line>
+     <line x1="40" y1="50" x2="50" y2="50" stroke="white"></line>
+   </g>
+   <g></g>
+   <g>
+     <line x1="90" y1="40" x2="90" y2="60" stroke="white" stroke-width="1"></line>
+     <line x1="110" y1="40" x2="110" y2="60" stroke="white" stroke-width="1"></line>
+     <text x="100" y="35" text-anchor="middle" lengthAdjust="" textLength="" font-family="arial" font-size="12" fill="white">con_1</text>
+     <text x="100" y="55" text-anchor="middle" lengthAdjust="" textLength="" font-family="arial" fill="white"></text>
+   </g>
+   <g>
+     <polyline points="90,50 50,50 " stroke="white" stroke-width="1" fill="transparent"></polyline>
+   </g>
+   <g>
+     <text x="230" y="35" text-anchor="middle" lengthAdjust="" textLength="" font-family="arial" font-size="12" fill="white">coil_1</text>
+     <text x="230" y="55" text-anchor="middle" lengthAdjust="" textLength="" font-family="arial" fill="white"></text>
+     <path d="M 225 40 Q 215 50 225 60" stroke="white" stroke-width="1" fill="transparent"></path>
+     <path d="M 235 40 Q 245 50 235 60" stroke="white" stroke-width="1" fill="transparent"></path>
+   </g>
+   <g>
+     <polyline points="220,50 110,50 " stroke="red" stroke-width="1" fill="transparent" stroke-dasharray="4"></polyline>
+   </g>
+   <g>
+     <text x="230" y="75" text-anchor="middle" lengthAdjust="" textLength="" text-decoration="line-through" font-family="arial" font-size="12" fill="red">coil_2</text>
+     <text x="230" y="95" text-anchor="middle" lengthAdjust="" textLength="" text-decoration="line-through" font-family="arial" fill="red">/</text>
+     <path d="M 225 80 Q 215 90 225 100" stroke="red" stroke-width="1" stroke-dasharray="4" fill="transparent"></path>
+     <path d="M 235 80 Q 245 90 235 100" stroke="red" stroke-width="1" stroke-dasharray="4" fill="transparent"></path>
+   </g>
+   <g>
+     <polyline points="220,90 165,90 165,50 110,50 " stroke="red" stroke-width="1" fill="transparent" stroke-dasharray="4"></polyline>
+   </g>
+   <g>
+     <line x1="280" y1="30" x2="280" y2="110" stroke="white" stroke-width="3"></line>
+     <line x1="280" y1="50" x2="270" y2="50" stroke="white"></line>
+     <line x1="280" y1="90" x2="270" y2="90" stroke="white"></line>
+   </g>
+   <g>
+     <polyline points="280,50 240,50 " stroke="white" stroke-width="1" fill="transparent"></polyline>
+     <polyline points="280,90 240,90 " stroke="red" stroke-width="1" fill="transparent" stroke-dasharray="4"></polyline>
+   </g>
+ </svg>
