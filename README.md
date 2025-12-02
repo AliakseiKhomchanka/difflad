@@ -29,7 +29,7 @@ To use the tool, simply use the `difflad` command with the following flags:
 |----|-------|------|-------|---|
 |--file|path to the file to be parsed| | | ✅ |
 |--pou|name of the program to be parsed (so far only one at a time, a stiched side-by-side view of all programs is in development)| | | ✅ |
-|--ref|refs to diff between, either one or two (repeated flag, meaning `--ref %first%` `--ref %second%`), if omitted - the tool renders the version at the HEAD of the current branch without a diff| | `HEAD` | ❌ |
+|--ref|refs to diff between, either one or two (repeated flag, meaning `--ref %first%` `--ref %second%`), if omitted - the tool renders the version at the HEAD of the current branch without a diff. Any ref format that git understands will work, meaning ref hashes, relative positions like `HEAD~1` etc.| | `HEAD` | ❌ |
 |--style| style for the diagram, can choose between light and dark mode at the moment | `light`, `dark` | `dark` | ❌ |
 |--output| output folder for the `.svg` files, if omitted - a temporary folder is automatically created| | | ❌ |
 
@@ -54,4 +54,4 @@ The tool is using a very shallow diffing algorithm at the moment relying on Open
     <variable>con_closed</variable>
 </contact>
 ```
-as you can see, each element has a `localId` attribute. When diffing, each element's identity is identified by its ID. If an element has been deleted, then recreated and put in the same exact position - it may have a different ID, so keep that in mind. A more deep algorithm is also possible, but for the initial version it is intentionally kept simple unless there's an explicit need.
+as you can see, each element has a `localId` attribute. When diffing, each element is identified by this parameter. If an element has been deleted, then recreated and put in the same exact position - it may have a different ID, so keep that in mind. A more deep algorithm is also possible, but for the initial version it is intentionally kept simple unless there's an explicit need.
